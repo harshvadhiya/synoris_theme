@@ -31,66 +31,61 @@ a {
 }
 
 /* Widgets */
+.wideget.spacer{
+	box-shadow: none;
+}
 .widget {
     background-color: white;
-	border: none;
-	box-shadow: 0px 3px 12px 0px #e8eafcad, 0 3px 3px -2px #461a7714;
+    border: none;
+    box-shadow: 0 3px 12px 0px #e8eafcad, 0 3px 3px -2px #461a7714;
 }
 .widget .widget-head .widget-title {
     font-size: 14px;
-	color: #a5488a;
+    color: #5170dd !important;
 }
 .widget.shortcut-widget-box .widget-head .widget-title i {
     color: #a5488a;
 }	
 
-/* Sidebar */
-/* .desk-container .desk-sidebar .sidebar-item {
-    font-size: 13px;
-    font-weight: 600;
-	color: #444;
+
+.widget.links-widget-box .widget-head .widget-label .widget-title {
+    font-size: var(--text-lg);
+    font-weight: var(--weight-semibold);
+    letter-spacing: .015em;
+    color: #5170dd !important;
 }
-.desk-container .desk-sidebar .sidebar-item.selected, .desk-container .desk-sidebar .sidebar-item:hover {
-    color: white;
-    background: linear-gradient(to right, #691551, #bf5ea4bf);
-}
-.layout-side-section {
-    font-size: 14px;
-}
-.uppercase {
-    color:#a5488a;
-} */
-.content.page-container {
-    width: 100%
+
+
+.container-xl, .container-lg, .container-md, .container-sm, .container {
+    max-width: 100%;
 }
 
 
 .desk-sidebar-item,
 .standard-sidebar-item {
-    width: 250px; /* Increase the width */
-    padding: 15px 0;
-    margin: 5px 0; /* Add margin for spacing */
-    /* background-color: #f8f9fa; Light background color */
-    color: #343a40; /* Dark text color */
-    border-radius: 8px; /* Rounded corners */
-    font-size: 16px; /* Increase font size */
-    font-weight: 500; /* Slightly bolder text */
-    transition: background-color 0.3s, transform 0.3s; /* Smooth transitions */
+    width: 300px; 
+    padding: 15px 25px;
+    margin: 5px 10px;
+    color: #343a40;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 500;
+    transition: background-color 0.3s, transform 0.3s;
 }
 
 /* Hover effect */
 .desk-sidebar-item:hover,
 .standard-sidebar-item:hover {
-    background-color: #e2e6ea; /* Slightly darker background on hover */
-    transform: scale(1.05); /* Slightly enlarge on hover */
+    background-color: #e2e6ea;
+    transform: scale(1.05);
 }
 
 /* Selected item style */
 .desk-sidebar-item.selected,
 .standard-sidebar-item.selected {
-    background-color: #007bff; /* Blue background for selected item */
-    color: #fff; /* White text for selected item */
-    box-shadow: 0 0 10px #D7E7FD /* Add shadow to selected item */
+    background-color: #007bff;
+    color: red;
+    box-shadow: 0 0 10px #b0c9eb;
 }
 
 
@@ -107,8 +102,12 @@ a {
     box-shadow: 0 1px 10px 1px rgba(115, 108, 203, 0.1);
 }
 .page-title .title-text {
-	color: #ac3c8d;
+	color: #5828a1;
 	font-size: 22px;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    color: #5828a1;
 }
 
 /*Main Section */
