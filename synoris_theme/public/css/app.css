@@ -60,11 +60,15 @@ a {
 .uppercase {
     color:#a5488a;
 } */
+.content.page-container {
+    width: 100%
+}
+
 
 .desk-sidebar-item,
 .standard-sidebar-item {
     width: 250px; /* Increase the width */
-    padding: 15px 20px; /* Add padding */
+    padding: 15px 0;
     margin: 5px 0; /* Add margin for spacing */
     /* background-color: #f8f9fa; Light background color */
     color: #343a40; /* Dark text color */
@@ -86,7 +90,7 @@ a {
 .standard-sidebar-item.selected {
     background-color: #007bff; /* Blue background for selected item */
     color: #fff; /* White text for selected item */
-    box-shadow: #D7E7FD /* Add shadow to selected item */
+    box-shadow: 0 0 10px #D7E7FD /* Add shadow to selected item */
 }
 
 
