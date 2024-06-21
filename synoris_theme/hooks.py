@@ -10,7 +10,7 @@ app_license = "mit"
 # ------------------
 
 # include js, css files in header of desk.html
-# app_include_css = "/assets/synoris_theme/css/synoris_theme.css"
+app_include_css = "/assets/synoris_theme/css/app.css"
 # app_include_js = "/assets/synoris_theme/js/synoris_theme.js"
 
 # include js, css files in header of web template
